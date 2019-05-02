@@ -25,8 +25,7 @@ def third_challenge
         name: "Lody Capulet"
         age:"51"
         },
-      :heroine => { name: "Juliet", age: "15", status: "alive"
-        },
+      :heroine => { name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => []                              #key points to an empty array
    }
   }
