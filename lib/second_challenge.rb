@@ -4,8 +4,8 @@ def second_challenge
       #your key/value pairs here!
       :patriarch => {}                 #keys point to a value of an empty hash.
       :matriarch => {}                 #keys point to a value of an empty hash.
-      :hero => {}                     #keys point to a value of an empty hash.
-      :hero_friends
+      :hero => {}                      #keys point to a value of an empty hash.
+      :hero_friends => []              # value of an empty array.
       },
     :capulet => {
       #your key/value pairs here!
