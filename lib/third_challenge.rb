@@ -13,7 +13,7 @@ def third_challenge
         #your key/value pairs here
         name: "Romeo", age: "15", status: "alive"
         },
-      :hero_friends => []                       #points to an empty array
+      :hero_friends => []                       #key points to an empty array
    },
    :capulet => {
       :patriarch => {
@@ -27,7 +27,10 @@ def third_challenge
         },
       :heroine => { name: "Juliet", age: "15", status: "alive"
         },
-      :heroine_friends => []
+      :heroine_friends => [
+        {name: "Benvolio", age: "17", attitude: "worried"}
+        {name: "Mercutio", age: "18", attitude: "hot-headed"}
+      ]                              #key points to an empty array
    }
   }
 
